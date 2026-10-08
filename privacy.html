@@ -67,7 +67,7 @@
   <body>
     <main>
       <h1>Lyna</h1>
-      <p class="meta">Son güncelleme / Last updated: 8 Ekim 2026 / 8 October 2026</p>
+      <p class="meta">Son güncelleme / Last updated: 9 Ekim 2026 / 9 October 2026</p>
       <nav>
         <a href="#tr">Türkçe</a> · <a href="#en">English</a> ·
         <a href="terms.html">Koşullar / Terms</a>
@@ -126,6 +126,11 @@
             Sağlık, para ve kimlik bilgileri not olarak saklanmaz.
           </li>
           <li>
+            <strong>Rüya tabiri:</strong> Yorumlanması için yazdığınız rüya metni, yalnızca o yorum
+            için yapay zekâya gönderilir ve sunucuda saklanmaz; sunucu yalnızca o hafta kaç yorum
+            kullandığınızı sayar. Rüyalarınız ve yorumları cihazınızda tutulur.
+          </li>
+          <li>
             <strong>Uyum:</strong> Uyum yorumu için eklediğiniz kişinin yalnızca adı, burçları ve
             hesaplanan puanlar gönderilir; bu kişinin doğum bilgileri cihazınızda kalır.
           </li>
@@ -148,9 +153,10 @@
         <h2>Cihazınızda kalan veriler</h2>
         <p>
           Doğum bilgileriniz, uyum için eklediğiniz kişiler, okumalarınıza yazdığınız günlük
-          notları, bebek ismi bölümündeki favorileriniz, tahmini doğum tarihi ve anne-baba adları,
-          bildirim tercihleriniz ve paylaşım görselleri yalnızca cihazınızda tutulur. Bildirimler
-          cihazınızda planlanır; anlık bildirim (push) kimliği toplanmaz.
+          notları, rüyalarınız ve yorumları, bebek ismi bölümündeki favorileriniz, tahmini doğum
+          tarihi ve anne-baba adları, bildirim tercihleriniz ve paylaşım görselleri yalnızca
+          cihazınızda tutulur. Bildirimler cihazınızda planlanır; anlık bildirim (push) kimliği
+          toplanmaz.
         </p>
 
         <h2>Hizmet sağlayıcılar</h2>
@@ -158,8 +164,9 @@
           <li><strong>Supabase</strong> (barındırma ve veritabanı, AB — Frankfurt).</li>
           <li>
             <strong>Anthropic</strong> (yapay zekâ yorumları). Yukarıdaki okuma bağlamı ve
-            mesajlarınız yanıt üretmek için işlenir; bizim hesabımız üzerinden gönderilen veriler
-            Anthropic tarafından model eğitiminde kullanılmaz.
+            mesajlarınız (ve yorumlatmak istediğiniz rüya metni) yanıt üretmek için işlenir; bizim
+            hesabımız üzerinden gönderilen veriler Anthropic tarafından model eğitiminde
+            kullanılmaz.
           </li>
           <li><strong>RevenueCat</strong> (abonelik yönetimi).</li>
           <li>
@@ -275,6 +282,11 @@
             identity details are never kept as notes.
           </li>
           <li>
+            <strong>Dream reading:</strong> the dream you write is sent to the AI only for its
+            reading and is not stored on the server; the server only counts how many readings you
+            used that week. Your dreams and their readings are kept on your device.
+          </li>
+          <li>
             <strong>Compatibility:</strong> for a compatibility reading only the other person’s
             first name, signs and the computed scores are sent; their birth details stay on your
             device.
@@ -297,18 +309,19 @@
         <h2>Data that stays on your device</h2>
         <p>
           Your birth details, the people you add for compatibility, the journal notes you write on
-          your readings, the favourites, expected birth date and parents’ names in the baby-name
-          finder, notification preferences and share images are kept on your device only.
-          Notifications are scheduled on the device; no push token is collected.
+          your readings, your dreams and their readings, the favourites, expected birth date and
+          parents’ names in the baby-name finder, notification preferences and share images are kept
+          on your device only. Notifications are scheduled on the device; no push token is
+          collected.
         </p>
 
         <h2>Service providers</h2>
         <ul>
           <li><strong>Supabase</strong> (hosting and database, EU — Frankfurt).</li>
           <li>
-            <strong>Anthropic</strong> (AI readings). The reading context and your messages are
-            processed to generate replies; data sent through our account is not used by Anthropic to
-            train models.
+            <strong>Anthropic</strong> (AI readings). The reading context and your messages (and any
+            dream you ask to have read) are processed to generate replies; data sent through our
+            account is not used by Anthropic to train models.
           </li>
           <li><strong>RevenueCat</strong> (subscription management).</li>
           <li>
