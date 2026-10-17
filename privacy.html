@@ -67,7 +67,7 @@
   <body>
     <main>
       <h1>Lyna</h1>
-      <p class="meta">Son güncelleme / Last updated: 9 Ekim 2026 / 9 October 2026</p>
+      <p class="meta">Son güncelleme / Last updated: 10 Ekim 2026 / 10 October 2026</p>
       <nav>
         <a href="#tr">Türkçe</a> · <a href="#en">English</a> ·
         <a href="terms.html">Koşullar / Terms</a>
@@ -131,6 +131,20 @@
             kullandığınızı sayar. Rüyalarınız ve yorumları cihazınızda tutulur.
           </li>
           <li>
+            <strong>Kahve falı:</strong> Fal için çektiğiniz ya da seçtiğiniz fincan fotoğrafları
+            (en fazla üç, küçültülmüş) ve isteğe bağlı niyetiniz yalnızca o fal için yapay zekâya
+            gönderilir; sunucuda saklanmaz, sunucu yalnızca o hafta kaç fal kullandığınızı sayar.
+            Fotoğraflar telefonunuzda da tutulmaz; fallarınız telefonunuzda kalır. Kamera ya da
+            galeriye yalnızca siz fotoğraf eklemek istediğinizde erişilir.
+          </li>
+          <li>
+            <strong>El falı:</strong> Fal için çektiğiniz ya da seçtiğiniz avuç içi fotoğrafları (en
+            fazla iki, küçültülmüş) ve isteğe bağlı niyetiniz yalnızca o fal için yapay zekâya
+            gönderilir. Fotoğraflar sunucuda ya da telefonunuzda saklanmaz, sizi tanımak ya da
+            doğrulamak için kullanılmaz ve hiçbir biyometrik kayıt oluşturulmaz; sunucu yalnızca o
+            hafta kaç fal kullandığınızı sayar. Fallarınız telefonunuzda kalır.
+          </li>
+          <li>
             <strong>Uyum:</strong> Uyum yorumu için eklediğiniz kişinin yalnızca adı, burçları ve
             hesaplanan puanlar gönderilir; bu kişinin doğum bilgileri cihazınızda kalır.
           </li>
@@ -144,6 +158,13 @@
             biz ödülün kaydını tutarız.
           </li>
           <li>
+            <strong>Bildirim adresi:</strong> Bildirimlere izin verdiyseniz, duyuru gönderebilmemiz
+            için cihazınızın bildirim adresi (push token), platformu, dil tercihiniz ve duyuruları
+            isteyip istemediğiniz saklanır. Kişisel bildirimler (günlük kart, Ay, gezegenler) ise
+            telefonunuzda planlanır; doğum bilgileriniz bunun için sunucuya gitmez. Duyuruları
+            Profil → Bildirimler’den kapatabilirsiniz.
+          </li>
+          <li>
             <strong>Teknik veriler:</strong> Uygulama hataları (çökme raporları) ve anonim kullanım
             istatistikleri (ör. “günlük kart açıldı”). Bunlar soru, sohbet, doğum bilgisi ya da
             serbest metin içermez.
@@ -153,10 +174,10 @@
         <h2>Cihazınızda kalan veriler</h2>
         <p>
           Doğum bilgileriniz, uyum için eklediğiniz kişiler, okumalarınıza yazdığınız günlük
-          notları, rüyalarınız ve yorumları, bebek ismi bölümündeki favorileriniz, tahmini doğum
-          tarihi ve anne-baba adları, bildirim tercihleriniz ve paylaşım görselleri yalnızca
-          cihazınızda tutulur. Bildirimler cihazınızda planlanır; anlık bildirim (push) kimliği
-          toplanmaz.
+          notları, rüyalarınız ve yorumları, kahve ve el fallarınız, bebek ismi bölümündeki
+          favorileriniz, tahmini doğum tarihi ve anne-baba adları, bildirim tercihleriniz ve
+          paylaşım görselleri yalnızca cihazınızda tutulur. Kişisel bildirimler cihazınızda
+          planlanır.
         </p>
 
         <h2>Hizmet sağlayıcılar</h2>
@@ -164,9 +185,11 @@
           <li><strong>Supabase</strong> (barındırma ve veritabanı, AB — Frankfurt).</li>
           <li>
             <strong>Anthropic</strong> (yapay zekâ yorumları). Yukarıdaki okuma bağlamı ve
-            mesajlarınız (ve yorumlatmak istediğiniz rüya metni) yanıt üretmek için işlenir; bizim
-            hesabımız üzerinden gönderilen veriler Anthropic tarafından model eğitiminde
-            kullanılmaz.
+            mesajlarınız (ve yorumlatmak istediğiniz rüya metni, fincan ya da avuç içi fotoğrafları)
+            yanıt üretmek için işlenir; bizim hesabımız üzerinden gönderilen veriler Anthropic
+            tarafından model eğitiminde kullanılmaz. Uygulama, ilk yapay zekâ yorumundan önce
+            izninizi sorar; izin vermezseniz hiçbir şey gönderilmez. Bu izni istediğiniz zaman
+            Profil → Yapay zekâ yorumları'ndan değiştirebilirsiniz.
           </li>
           <li><strong>RevenueCat</strong> (abonelik yönetimi).</li>
           <li>
@@ -221,7 +244,7 @@
 
         <h2>Önemli not</h2>
         <p>
-          Lyna eğlence ve kişisel tefekkür amaçlıdır; tıbbi, hukuki, finansal ya da psikolojik
+          Lyna eğlence ve kendini keşfetme amaçlıdır; tıbbi, hukuki, finansal ya da psikolojik
           tavsiye yerine geçmez.
         </p>
 
@@ -287,6 +310,20 @@
             used that week. Your dreams and their readings are kept on your device.
           </li>
           <li>
+            <strong>Coffee cup reading:</strong> the cup photos you take or choose for a reading (up
+            to three, resized) and your optional intention are sent to the AI for that reading only
+            and are not stored on the server; the server only counts how many readings you used that
+            week. The photos aren't kept on your phone either; your readings stay on your device.
+            The camera or gallery is opened only when you choose to add a photo.
+          </li>
+          <li>
+            <strong>Palm reading:</strong> the palm photos you take or choose for a reading (up to
+            two, resized) and your optional intention are sent to the AI for that reading only. The
+            photos are not stored on the server or your phone, are never used to recognise or verify
+            you, and no biometric record is created; the server only counts how many readings you
+            used that week. Your readings stay on your device.
+          </li>
+          <li>
             <strong>Compatibility:</strong> for a compatibility reading only the other person’s
             first name, signs and the computed scores are sent; their birth details stay on your
             device.
@@ -301,6 +338,13 @@
             a record of the reward.
           </li>
           <li>
+            <strong>Notification address:</strong> if you allow notifications, your device's push
+            token, platform, language and whether you want announcements are stored so we can send
+            announcements. Personal notes (the daily card, the Moon, planets) are scheduled on your
+            phone; your birth details never go to the server for them. You can turn announcements
+            off in Profile → Notifications.
+          </li>
+          <li>
             <strong>Technical data:</strong> crash reports and anonymous usage statistics (e.g.
             “daily card opened”). They never contain questions, chats, birth details or free text.
           </li>
@@ -309,10 +353,10 @@
         <h2>Data that stays on your device</h2>
         <p>
           Your birth details, the people you add for compatibility, the journal notes you write on
-          your readings, your dreams and their readings, the favourites, expected birth date and
-          parents’ names in the baby-name finder, notification preferences and share images are kept
-          on your device only. Notifications are scheduled on the device; no push token is
-          collected.
+          your readings, your dreams and their readings, your coffee and palm readings, the
+          favourites, expected birth date and parents’ names in the baby-name finder, notification
+          preferences and share images are kept on your device only. Personal notifications are
+          scheduled on the device.
         </p>
 
         <h2>Service providers</h2>
@@ -320,8 +364,10 @@
           <li><strong>Supabase</strong> (hosting and database, EU — Frankfurt).</li>
           <li>
             <strong>Anthropic</strong> (AI readings). The reading context and your messages (and any
-            dream you ask to have read) are processed to generate replies; data sent through our
-            account is not used by Anthropic to train models.
+            dream, cup or palm photos you ask to have read) are processed to generate replies; data
+            sent through our account is not used by Anthropic to train models. The app asks for your
+            permission before the first AI reading; if you decline, nothing is sent. You can change
+            it anytime in Profile → AI readings.
           </li>
           <li><strong>RevenueCat</strong> (subscription management).</li>
           <li>
